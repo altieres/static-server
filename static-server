@@ -1,1 +1,4 @@
-java -cp java -cp /Users/altieres/projetos/static-server/altz-static-server/lib/*:/Users/altieres/projetos/static-server/altz-static-server/bin altz.StaticServer
+#!/bin/bash
+
+MY_HOME=`dirname "${BASH_SOURCE[0]}"`
+java -cp java -cp ${MY_HOME}/lib/*:${MY_HOME}/bin altz.StaticServer
