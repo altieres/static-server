@@ -1,0 +1,1 @@
+java -cp java -cp /Users/altieres/projetos/static-server/altz-static-server/lib/*:/Users/altieres/projetos/static-server/altz-static-server/bin altz.StaticServer
